@@ -14,11 +14,13 @@ It has been developed following MVP architecture, and includes:
 * Java 8: allows Lambda usage, in order to reduce boilerplate code
 
 
-###Considerations###
+## Considerations ##
 
-- There is an incompatibility regarding Sugar ORM and Instant Run, so this Android Studio's option must be disabled when running the App directly from the IDE
+- There is an incompatibility regarding Sugar ORM and Instant Run, so this Android Studio's option must be disabled when running the App directly from the IDE.
 
-- LocationItemActivity has no associated Presenter because this App's scope doesn't requires it to be implemented. Anyway, the project structure is ready to fit the corresponding Model and Presenter layers (the View one is the only I added for this Activity)
+- LocationItemActivity has no associated Presenter because this App's scope doesn't requires it to be implemented. Anyway, the project structure is ready to fit the corresponding Model and Presenter layers (the View one is the only I added for this Activity).
+
+- There is also included a Debug APK I generated with the last code version.
 
 - I analyzed the App's memory usage, and I saw it is increased when opening and closing  few times. After that, the App stabilizes the memory consumption. I'd like to check it more carefully, but it might take me some time and I don't wanna take advantage over other possible candidates.
 
