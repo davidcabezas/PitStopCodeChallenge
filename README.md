@@ -14,7 +14,7 @@ It has been developed following MVP architecture, and includes:
 * Java 8: allows Lambda usage, in order to reduce boilerplate code
 
 
-##Considerations##
+###Considerations###
 
 - There is an incompatibility regarding Sugar ORM and Instant Run, so this Android Studio's option must be disabled when running the App directly from the IDE
 
