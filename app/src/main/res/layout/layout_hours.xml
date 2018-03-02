@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_hours"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/closed_now"
+            android:textAllCaps="true"
+            android:textColor="@color/red"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hours"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_hours"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Monday" />
+
+        <TextView
+            android:id="@+id/textView_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_monday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Tuesday" />
+
+        <TextView
+            android:id="@+id/textView_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_tuesday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Wednesday" />
+
+        <TextView
+            android:id="@+id/textView_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_wednesday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Thursday" />
+
+        <TextView
+            android:id="@+id/textView_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_thursday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Friday" />
+
+        <TextView
+            android:id="@+id/textView_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_friday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Saturday" />
+
+        <TextView
+            android:id="@+id/textView_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_saturday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Sunday" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
